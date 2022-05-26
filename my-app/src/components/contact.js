@@ -10,14 +10,17 @@ import Typography from '@mui/material/Typography';
 const Contact = () => {
   const [ username,setUsername]= useState("");
   const [email,setEmail]= useState("");
-  const [telephone,setTelephone]=useState("");
+  const [message,setMessage]=useState("");
+  const[subject,setSubject]= useState("");
+
 
   const handleSubmit = async(event)=>{
     event.preventDefault();
     const newHost ={
       username,
       email,
-      telephone,
+      message,
+      subject,
       
     }
   }
@@ -92,14 +95,14 @@ const Contact = () => {
               name="subject"
               label="Subject"
               id="telephone"
-               onChange={setTelephone}
+               onChange={setSubject}
               
             />
                 <TextareaAutosize
                          aria-label="minimum height"
                            minRows={10}
                              placeholder="Message"
-                        
+                            onChange={setMessage}
                              style={{ width: 400,fontSize:"16px",fontFamily:"Arial, Helvetica, sans-serif" }}
     />
 
@@ -122,5 +125,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
-// https://metagroupafrica.com/wp-content/uploads/2020/08/shutterstock_1186976332-1536x1024.jpg
+export default Contact;
