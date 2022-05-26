@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/About';
+import Contact from './components/contact';
 import Home from './components/Home';
 import Navbar from './components/navbar';
 
@@ -8,7 +9,8 @@ function App() {
     <>
      <Navbar/>
     {/* <Home/> */}
-    <About/>
+    {/* <About/> */}
+    <Contact/>
     </>
    
   );
