@@ -1,0 +1,80 @@
+.home{
+  margin-top: -110px;
+}
+.imgSection img{
+  width: 100%;
+  object-fit: cover;
+}
+.moreInfo{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.moreInfoImg{
+  flex-grow: 3;
+  /* width: 50%; */
+}
+.moreInfoWords{
+  flex-direction:row ;
+  flex-grow: 1;
+  margin-left: 60%;
+  margin-top: -350px;
+}
+.moreInfoImg h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  margin-left: 40%;
+}
+.moreInfoImg  img{
+/* padding: 10px; */
+  height: 400px;
+  width: 800px;
+  object-fit: cover;
+  margin-left: 4%;
+
+}
+.moreInfoWords p{
+  color: rgb(99, 98, 98);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+.product {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.ourProducts{
+  margin-top: 210px;
+  margin-bottom: 10px;
+  
+}
+.ourProducts h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  margin-left: 40%;
+  color: grey;
+}
+.cards:hover{
+  transform: scale(1.05);
+}
+.ourServices{
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.service{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.ourServices h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  margin-left: 40%;
+  color: grey;
+}

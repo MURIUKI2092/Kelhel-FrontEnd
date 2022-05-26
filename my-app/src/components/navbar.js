@@ -12,7 +12,7 @@ const Navbar = () => {
       </section>
 
       <div  className='otherInfo'>
-      <section className='home'>
+      <section className='myHome'>
         <li><h3>HOME</h3></li>
       </section>
       <section className='about'>
