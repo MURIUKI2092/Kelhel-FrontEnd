@@ -1,17 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from "../images/logo.png"
 import "../styles/navbar.css"
 
 const Navbar = () => {
+  const[colorChange,setColorChange]=useState(false)
+  const  changeNavbarColor =()=>{
+    if(window.scrollY>=80){
+      setColorChange(true)
+    }else{
+      setColorChange(false)
+    }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
   return (
-    <div className='navbar'>
+    <div className={colorChange?'navbar1':"navbar"}>
       <section className='logo'>
         <img
         src={logo}
         alt='logo here'/>
       </section>
 
-      <div  className='otherInfo'>
+      <div  className={colorChange?'otherInfos':'otherInfo'}>
       <section className='myHome'>
         <li><h3>HOME</h3></li>
       </section>
