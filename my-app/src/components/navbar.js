@@ -24,7 +24,7 @@ const Navbar = () => {
       <section className='myHome'>
         <li><h3>HOME</h3></li>
       </section>
-      <section className='about'>
+      <section className='myAbout'>
         <li><h3>ABOUT</h3></li>
       </section>
       <section className='project'>
