@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import logo from "../images/logo.png"
 import "../styles/navbar.css"
-
+import {Link} from 'react-router-dom'
 const Navbar = () => {
   const[colorChange,setColorChange]=useState(false)
   const  changeNavbarColor =()=>{
@@ -22,19 +22,21 @@ const Navbar = () => {
 
       <div  className={colorChange?'otherInfos':'otherInfo'}>
       <section className='myHome'>
-        <li><h3>HOME</h3></li>
+      <Link to="/"className="links"  > <li><h3>HOME</h3></li></Link>
+        
       </section>
       <section className='myAbout'>
-        <li><h3>ABOUT</h3></li>
+      <Link to="/about"className="links"  > <li><h3>ABOUT</h3></li></Link>
+       
       </section>
       <section className='project'>
-        <li><h3>PROJECTS</h3></li>
+      <Link to="/about"className="links"  > <li><h3>PROJECTS</h3></li></Link>
       </section>
       <section className='products'>
-        <li><h3>PRODUCTS</h3></li>
+      <Link to="/about"className="links"  > <li><h3>PRODUCTS</h3></li></Link>
       </section>
       <section className='contact'>
-        <li><h3>CONTACT</h3></li>
+      <Link to="/contact"className="links"  > <li><h3>CONTACT</h3></li></Link>
       </section>
       </div>
       

@@ -50,6 +50,15 @@
   cursor: pointer;
   color: white;
 }
+.otherInfo li:hover{
+  color: whitesmoke;
+}
+.links{
+  list-style: none;
+    cursor:pointer;
+  text-decoration: none;
+
+}
 .otherInfos li{
   list-style: none;
   margin-left: 60px;
@@ -59,6 +68,9 @@
   margin-top: 40px;
   cursor: pointer;
   color: rgb(11, 11, 11);
+}
+.otherInfos li:hover{
+  color: rgb(123, 122, 122);
 }
 .otherInfos{
   display: flex;

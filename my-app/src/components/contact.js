@@ -74,7 +74,7 @@ const Contact = () => {
               label="Your Name"
               name="name"
               autoComplete="name"
-              autoFocus
+              
               onChange={setUsername}
             />
             <TextField
