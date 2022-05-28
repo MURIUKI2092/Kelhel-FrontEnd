@@ -7,6 +7,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea } from '@mui/material';
 import Typography from '@mui/material/Typography';
+import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className='home'>
@@ -28,7 +29,8 @@ const Home = () => {
           <p>
           When it comes down to it, 90% of the prospective developers in a room will have the requisite certifications and will be competent in all of the requested technologies. Where they fail next to the other 10% of their peers is in the soft skill department. The 10% who actually have the necessary 
           soft skills will be those who move on to a second interview.</p>
-          <Button variant="outlined" sx={{mt:2,ml:30,width:100}}>MORE</Button>
+          <Link to="/about" className='links'> <Button variant="outlined" sx={{mt:2,ml:30,width:150}}>MORE</Button></Link>
+         
 
           </div>
 

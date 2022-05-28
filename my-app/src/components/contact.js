@@ -112,7 +112,7 @@ const Contact = () => {
               type="submit"
               
               variant="contained"
-              sx={{ mt: 3, mb: 2 ,ml:20}}
+              sx={{ mt: 3, mb: 2 ,ml:20,width:150}}
             >
             Send
             </Button>

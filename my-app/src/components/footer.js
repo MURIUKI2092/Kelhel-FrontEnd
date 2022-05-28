@@ -12,7 +12,7 @@ export const Footer = () => {
        
       
         <div className='copyWriteInfo'>
-          <p>Copyright &copy;{new Date().getFullYear()} All Rights Reserved by </p>
+          <p>&copy;{new Date().getFullYear()} Kelhel Limited. All Rights Reserved. </p>
 
         </div>
         <div className='socialsInfo'>

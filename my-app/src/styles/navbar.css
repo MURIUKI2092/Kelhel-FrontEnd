@@ -78,3 +78,18 @@
   flex-grow: 4;
   padding: 10px;
 }
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  box-shadow: inset 0  0  10px  #323332;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb{
+  background: #767776;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #acadacbb;
+}
