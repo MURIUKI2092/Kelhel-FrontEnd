@@ -12,7 +12,7 @@ export const Footer = () => {
        
       
         <div className='copyWriteInfo'>
-          <p>&copy;{new Date().getFullYear()} Kelhel Limited. All Rights Reserved. </p>
+          <p>&copy;{new Date().getFullYear()} KELHEL Limited. All Rights Reserved. </p>
 
         </div>
         <div className='socialsInfo'>

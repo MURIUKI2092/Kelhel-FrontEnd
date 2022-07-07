@@ -1,9 +1,8 @@
 .Contact{
   margin-top: -110px;
 }
-.contactImg img{
+.contactImg  img{
   width: 100%;
-  /* height: 30%; */
   object-fit: cover;
 }
 .contactWords h2{

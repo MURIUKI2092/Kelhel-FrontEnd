@@ -7,6 +7,7 @@ import TextareaAutosize from '@mui/material/TextareaAutosize';
 import Container from '@mui/material/Container';
 import "../styles/contact.css"
 import Typography from '@mui/material/Typography';
+import Slider from '../sliders/homeSlider';
 const Contact = () => {
   const [ username,setUsername]= useState("");
   const [email,setEmail]= useState("");
@@ -26,12 +27,9 @@ const Contact = () => {
   }
   return (
     <div className='Contact'>
-      <section className='contactImg'>
-        <img
-        src=' https://metagroupafrica.com/wp-content/uploads/2020/08/shutterstock_1186976332-1536x1024.jpg'
-        alt='img here'
-        />
-      </section>
+      <div className='contactImg'>
+       <Slider/>
+      </div>
       <div className='contactInfo'>
         <div className='contactWords'>
         <h2>Send Us A Message</h2>

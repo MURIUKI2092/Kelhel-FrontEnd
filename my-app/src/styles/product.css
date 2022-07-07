@@ -1,5 +1,6 @@
 .productImg img{
   width: 100%;
+  object-fit: cover;
 }
 .myProducts{
   margin-top: -110px;

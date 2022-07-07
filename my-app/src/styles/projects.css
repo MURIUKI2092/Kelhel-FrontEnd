@@ -1,0 +1,24 @@
+.projectsDiv{
+    display: flex;
+  flex-direction: row;
+  padding: 10px;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.projects{
+    margin-top: -110px;
+  
+  }
+  .aboutImg img{
+    width: 100%;
+    object-fit: cover;
+  }
+  .myTitle{
+    /* align-items: center; */
+    margin-left: 34%;
+    font-family: serif;
+    color: rgb(138, 132, 132);
+    font-weight: bolder;
+    font-size: 40px;
+  }

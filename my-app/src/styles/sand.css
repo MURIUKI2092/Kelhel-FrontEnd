@@ -1,0 +1,23 @@
+.sandSection{
+  margin-top: -110px;
+
+}
+.sandHeader img{
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+
+}
+.sand{
+  display: flex;
+  flex-direction: row;
+  /* padding: 10px; */
+  flex-wrap: wrap;
+  
+ 
+}
+.sands:hover{
+  
+    transform: scale(1.005);
+ 
+}
