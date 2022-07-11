@@ -1,0 +1,31 @@
+.productImg img{
+  width: 100%;
+  object-fit: cover;
+}
+.myProducts{
+  margin-top: -110px;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.productsInfo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-left: 20px;
+  /* margin-left: -80px; */
+}
+.cards:hover{
+  transform: scale(1.01);
+}
+.productsTitle h2{
+  font-family: serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: rgb(139, 136, 136);
+margin-left: 40%;
+  
+}
