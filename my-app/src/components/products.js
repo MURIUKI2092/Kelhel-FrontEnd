@@ -33,6 +33,27 @@ const myProducts = [
    
   },
   {
+    name:"Bitumen",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6B38Y9xrPE2A_VKnf3IC8AzG3Jfmy8hJ-mg&usqp=CAU",
+    description:"Pengrade 80/100,pengrade 60/70",
+    link:"#"
+   
+  },
+  {
+    name:"CutBacks",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6B38Y9xrPE2A_VKnf3IC8AzG3Jfmy8hJ-mg&usqp=CAU",
+    description:" MC-30|MC-70",
+    link:"#"
+   
+  },
+  {
+    name:"Emulsions",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6B38Y9xrPE2A_VKnf3IC8AzG3Jfmy8hJ-mg&usqp=CAU",
+    description:" K1 -60|K1 -70|K365|A4-60",
+    link:"#"
+   
+  },
+  {
     name:"Murrum",
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-qU2k0fmHKWKXHIriekdVCnDAfMcaU7-ZMw&usqp=CAU",
     
